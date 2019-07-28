@@ -1,0 +1,7 @@
+2019/07/28 08:54:53 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/nginx.conf:2
+2019/07/28 09:06:23 [emerg] 1#1: "worker_processes" directive is not allowed here in /etc/nginx/conf.d/nginx.conf:3
+2019/07/28 09:09:58 [emerg] 1#1: "worker_processes" directive is not allowed here in /etc/nginx/conf.d/nginx.conf:4
+2019/07/28 09:10:52 [emerg] 1#1: "worker_processes" directive is not allowed here in /etc/nginx/conf.d/nginx.conf:4
+2019/07/28 09:11:22 [emerg] 1#1: directive "server_name" is not terminated by ";" in /etc/nginx/nginx.conf:45
+2019/07/28 09:29:02 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:35
+2019/07/28 10:05:46 [error] 7#7: *46 open() "/usr/share/nginx/html/dd" failed (2: No such file or directory), client: 192.168.220.76, server: localhost, request: "GET /dd HTTP/1.1", host: "192.168.201.63"
