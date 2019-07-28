@@ -1,5 +1,6 @@
 # docker-nginx
-
+##
+單機模式
 ##
 1.nginx/nginx.conf文件,映射預設配置/etc/nginx/nginx.conf文件
 2.nginx/conf.d目錄,映射/etc/nginx/conf.d目錄
