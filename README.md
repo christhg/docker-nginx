@@ -4,12 +4,15 @@
 2. nginx/conf.d目錄,映射/etc/nginx/conf.d目錄
 3. log目錄,映射預設/var/log/nginx目錄
 4. www目錄,映射/usr/share/nginx/html站台目錄
+5. www/index.html,首頁
+6. www/goaccess/index.html,GoAccess首頁
 
 ## nginx配置文件
 + nginx/nginx.conf配置全局
 + nginx/conf.d/default.conf 配置80端口...預設index.html
 + nginx/conf.d/proxy_ha.conf 配置代理
 + nginx/conf.d/proxy_oa.conf 配置代理
++ nginx/conf.d/.htpasswd 密碼
 
 ## Docker-compose
 docker-compose.yml
