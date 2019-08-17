@@ -1,3 +1,6 @@
 
 2019/08/17 09:13:48 [error] 7#7: *7 user "goaccess": password mismatch, client: 192.168.220.76, server: localhost, request: "GET /goaccess/ HTTP/1.1", host: "192.168.201.63"
 2019/08/17 09:14:47 [error] 7#7: *7 user "asdf" was not found in "/etc/nginx/nginx.htpasswd", client: 192.168.220.76, server: localhost, request: "GET /goaccess/ HTTP/1.1", host: "192.168.201.63"
+2019/08/17 10:30:02 [error] 6#6: *3 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.220.76, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.201.63"
+2019/08/17 10:38:14 [error] 6#6: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.220.76, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.201.63"
+2019/08/17 10:38:37 [error] 6#6: *4 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.220.76, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.201.63"
